@@ -11,6 +11,8 @@ import { GoDashboard } from "react-icons/go";
 import { Link, useNavigate } from "react-router-dom";
 import { GlobalContext } from "../Global/GlobalContext";
 import { app } from "../../Base";
+import { BsCaretDownFill } from "react-icons/bs";
+import { SiGooglescholar } from "react-icons/si";
 
 const HeaderComponent = () => {
 	const navigate = useNavigate();
@@ -29,36 +31,46 @@ const HeaderComponent = () => {
 				</Logo>
 
 				<Wrapper>
-					<a>
+					<Anchor>
 						<Link to='/' style={{ color: "white", textDecoration: "none" }}>
 							<AiFillHome style={{ fontSize: "19px" }} />
 							<span>Home</span>
 						</Link>
-					</a>
-					<a>	
+					</Anchor>
+					<Anchor>
 						<Link
 							to='/about'
 							style={{ color: "white", textDecoration: "none" }}>
 							<FaSwatchbook style={{ fontSize: "19px" }} />
 							<span>About</span>
 						</Link>
-					</a>
-					<a>
-						<Link
-							to='/admission'
-							style={{ color: "white", textDecoration: "none" }}>
-							<MdSchool style={{ fontSize: "19px" }} />
-							<span>Admission</span>
-						</Link>
-					</a>
-					<a>
+					</Anchor>
+					<Anchor>
+						<MdSchool style={{ fontSize: "19px" }} />
+						<DropDown>
+							Academics <BsCaretDownFill style={{ marginLeft: "5px" }} />
+							<DropHold>
+								<Link
+									to='/admission'
+									style={{ color: "white", textDecoration: "none" }}>
+									<a>Admission</a>
+								</Link>
+								<Link
+									to='/schoolarship'
+									style={{ color: "white", textDecoration: "none" }}>
+									<a>Scholarship</a>
+								</Link>
+							</DropHold>
+						</DropDown>
+					</Anchor>
+					<Anchor>
 						<Link
 							to='/contact'
 							style={{ color: "white", textDecoration: "none" }}>
 							<MdContacts style={{ fontSize: "19px" }} />
 							<span>Contact</span>
 						</Link>
-					</a>
+					</Anchor>
 					{currentData ? (
 						<Link
 							to='/studentDashboard'
@@ -131,6 +143,14 @@ const HeaderComponent = () => {
 									<span>Admission</span>
 								</Link>
 							</a>
+							<a>
+								<Link
+									to='/schoolarship'
+									style={{ color: "white", textDecoration: "none" }}>
+									<SiGooglescholar style={{ fontSize: "19px" }} />
+									<span>Scholarship</span>
+								</Link>
+							</a>
 
 							<a>
 								<Link
@@ -181,6 +201,101 @@ const HeaderComponent = () => {
 };
 
 export default HeaderComponent;
+
+const Anchor = styled.div`
+	display: flex;
+	align-items: center;
+	height: 100%;
+	position: relative;
+	margin-left: 30px;
+
+	 img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    
+  }
+
+  span{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.1px
+    position: relative;
+    opacity: 0.6;
+
+
+    &:after{
+      content:"";
+      position: absolute;
+      height: 2px;
+      background-color: white;
+      right: 0;
+      left: 20px;
+      bottom: 20px;
+      opacity: 0;
+      transform: scaleX(1);
+      transform-origin: center left;
+      transition: all 350ms cubic-bezier(0.34, 0.44, 0.96, 0.47) 0s;
+    }
+  }
+
+  &:hover{
+    span{
+      opacity: 1;
+    }
+    span:after {
+      opacity: 1;
+      transform: scaleX(1.06)
+    }
+  }
+`;
+
+const DropHold = styled.div`
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+
+	min-width: 200px;
+	color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 10;
+	margin-top: 13px;
+	opacity: 1;
+
+	a {
+		color: black;
+		padding: 10px 12px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+		opacity: 1;
+
+		:hover {
+			background-color: #ddd;
+		}
+	}
+`;
+
+const DropDown = styled.div`
+	border: none;
+	outline: none;
+	color: white;
+	/* padding: 14px 16px; */
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+
+	display: flex;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #adb8bb;
+
+	&:hover ${DropHold} {
+		display: block;
+	}
+`;
 
 const MainSide = styled.div`
 	width: 100%;
@@ -342,88 +457,42 @@ const Logo = styled.div`
 `;
 
 const Wrapper = styled.div`
-display: flex;
-align-items: center;
-height: 100%; 
-cursor: pointer;
-/* margin-left: 20px; */
-margin-right: 150px;
-color : white;
-
-button{
-	margin-left: 20px;
-	height: 35px;
-	width: 120px;
-	font-weight: bold;
-	border-radius: 5px;
-	border: none;
-	// transform: scaleX(1);
-	opacity: 1;
+	display: flex;
+	align-items: center;
+	height: 100%;
 	cursor: pointer;
-	font-size: 15px;
+	/* margin-left: 20px; */
+	margin-right: 150px;
+	color: white;
 
-	:hover {
-		background-color: #1976D2;
-		color: white;
-		transform-origin: center left;
-		transition: all 350ms cubic-bezier(0.34, 0.44, 0.96, 0.47) 0s;
-		// transform: scaleX(0.9);
-		opacity: 0.8;
+	button {
+		margin-left: 20px;
+		height: 35px;
+		width: 120px;
+		font-weight: bold;
+		border-radius: 5px;
+		border: none;
+		// transform: scaleX(1);
+		opacity: 1;
+		cursor: pointer;
+		font-size: 15px;
+
+		:hover {
+			background-color: #1976d2;
+			color: white;
+			transform-origin: center left;
+			transition: all 350ms cubic-bezier(0.34, 0.44, 0.96, 0.47) 0s;
+			// transform: scaleX(0.9);
+			opacity: 0.8;
+		}
 	}
-}
 
-a{
-  display: flex;
-  align-items: center;
-  height: 100%; 
-  position: relative;
-  margin-left: 30px;
+	 {
+	}
 
-  img{
-    width: 20px;
-    height: 20px;
-    object-fit: cover;
-    
-  }
-
-  span{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 13px;
-    letter-spacing: 1.1px
-    position: relative;
-    opacity: 0.6;
-
-
-    &:after{
-      content:"";
-      position: absolute;
-      height: 2px;
-      background-color: white;
-      right: 0;
-      left: 20px;
-      bottom: 20px;
-      opacity: 0;
-      transform: scaleX(1);
-      transform-origin: center left;
-      transition: all 350ms cubic-bezier(0.34, 0.44, 0.96, 0.47) 0s;
-    }
-  }
-
-  &:hover{
-    span{
-      opacity: 1;
-    }
-    span:after {
-      opacity: 1;
-      transform: scaleX(1.06)
-    }
-  }
-}
-
-@media screen and (max-width: 768px){
-  display: none;
-}
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
 `;
 
 const UserAvatar = styled.div`
