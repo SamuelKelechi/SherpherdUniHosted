@@ -243,11 +243,12 @@ line-height:18px;
 const Card = styled.div`
 width: 350px;
 height: 480px;
-background-color: #00243A;
+background-color: white;
 display: flex;
 justify-content:center;
 align-items: center;
 padding: 20px;
+
 
 @media screen and (max-width: 760px) {
   padding: 0px;
@@ -258,7 +259,7 @@ padding: 20px;
 const Container = styled.div`
 width: 100%;
 height: 700px;
-background-color: #00243A;
+/* background-color: #D7D8DB; */
 display: flex;
 
 align-items: center;
@@ -268,7 +269,7 @@ padding-bottom: 20px;
 margin-top: 30px;
 
 span{
-  color: #F2F3F6;
+  color: black;;
   font-size: 35px;
   font-weight: 600;
   text-align: center;
