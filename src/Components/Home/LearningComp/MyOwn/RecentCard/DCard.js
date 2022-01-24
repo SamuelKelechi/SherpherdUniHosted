@@ -69,13 +69,13 @@ display: flex;
 flex-direction: column;
 box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 background-color:white;
-transform: scale(1);
+/* transform: scale(1.2);
 transition: all 350ms;
 
 &:hover{
-  transform:scale(1.03);
+  transform:scale(1);
   color: #EF9F27;
-};
+}; */
 
 `
 

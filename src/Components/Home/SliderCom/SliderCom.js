@@ -61,9 +61,8 @@ function SliderCom() {
             <CC>
               <Imgcon src={img1}></Imgcon>
               <NameCon> <Dn>Name</Dn>  : Adebayo Nike</NameCon>
-              <Ema><Dn>Year of Graduatation</Dn>: 2017</Ema>
-              <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
-              <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
+             
+              <Decs> AT NYSC KOGI CAMP, KOGI STATE. </Decs>
             </CC>
            
           </Card>
@@ -72,13 +71,12 @@ function SliderCom() {
           <CC>
           <Imgcon src={img2}></Imgcon>
           <NameCon> <Dn>Name</Dn>  : Obia Wisdom</NameCon>
-              <Ema><Dn>Year of Graduatation</Dn>: 2017</Ema>
-              <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
-              <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
+
+              <Decs>  AT NYSC BAYELSA CAMP, BAYELSA STATE.</Decs>
           </CC>
           </Card>
           
-          <Card>
+          {/* <Card>
           <CC>
           <Imgcon src={img3}></Imgcon>
           <NameCon> <Dn>Name</Dn>  : Jimoh ABDULMUJEEB.O</NameCon>
@@ -86,9 +84,9 @@ function SliderCom() {
               <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
               <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
           </CC>
-          </Card>
+          </Card> */}
           
-          <Card>
+          {/* <Card>
           <CC>
           <Imgcon src={img4}></Imgcon>
               <NameCon> <Dn>Name</Dn>  : JIMOH ABDULMUJEEB.O</NameCon>
@@ -96,15 +94,15 @@ function SliderCom() {
               <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
               <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
           </CC>
-          </Card>
+          </Card> */}
           
           <Card>
           <CC>
           <Imgcon src={img5}></Imgcon>
           <NameCon> <Dn>Name</Dn>  : Adeola Jayeola</NameCon>
-              <Ema><Dn>Year of Graduatation</Dn>: 2017</Ema>
-              <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
-              <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
+              <Decs><Dn>Year of Graduatation</Dn>: 2017</Decs>
+              <Decs><Dn>Present Location</Dn>: Lagos</Decs>
+              <Decs> <Dn>Current status </Dn>:  Employed </Decs>
           </CC>
           </Card>
           
@@ -112,9 +110,8 @@ function SliderCom() {
           <CC>
           <Imgcon src={img6}></Imgcon>
           <NameCon> <Dn>Name</Dn>  :Naomi</NameCon>
-              <Ema><Dn>Year of Graduatation</Dn>: 2017</Ema>
-              <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
-              <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
+             
+              <Decs>  AT NYSC ABAKALIKI CAMP, EBONYI STATE </Decs>
           </CC>
           </Card>
           
@@ -122,9 +119,8 @@ function SliderCom() {
           <CC>
           <Imgcon src={img7}></Imgcon>
           <NameCon> <Dn>Name</Dn>  : Oluwamu ayowabami</NameCon>
-              <Ema><Dn>Year of Graduatation</Dn>: 2017</Ema>
-              <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
-              <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
+              
+              <Decs>AT NYSC UMUAHIA CAMP, ABIA STATE </Decs>
           </CC>
           </Card>
           
@@ -132,19 +128,17 @@ function SliderCom() {
           <CC>
           <Imgcon src={img8}></Imgcon>
           <NameCon> <Dn>Name</Dn>  : ODUOLA AYOMIDE</NameCon>
-              <Ema><Dn>Year of Graduatation</Dn>: 2017</Ema>
-              <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
-              <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
+              <Decs><Dn>Year of Graduatation</Dn>: 2017</Decs>
+              
+              <Decs> <Dn>Current status </Dn>: Software Developer </Decs>
           </CC>
           </Card>
 
           <Card>
           <CC>
           <Imgcon src={img9}></Imgcon>
-          <NameCon> <Dn>Name</Dn>  : JIMOH ABDULMUJEEB.O</NameCon>
-              <Ema><Dn>Year of Graduatation</Dn>: 2017</Ema>
-              <Ema> <Dn>Department</Dn>: Comp. Science</Ema>
-              <Decs> <Dn>Current status </Dn>: Currently Serving </Decs>
+          <NameCon> <Dn>Name</Dn> : JIMOH ABDULMUJEEB.O</NameCon>
+              <Decs>AT NYSC KEFFI CAMP, NASARAWA STATE. </Decs>
           </CC>
           </Card>
           
@@ -162,7 +156,7 @@ export default SliderCom
 const Dn = styled.div`
 color: #00243A;
 font-weight: 600;
-font-size:18px;
+font-size:13px;
 
 @media screen and (max-width:760px){
   font-size:15px;
@@ -180,7 +174,7 @@ const Imgcon = styled.img`
 `
 const NameCon = styled.div`
 display: flex;
-font-size:18px;
+font-size:15px;
 height: 25px;
 width: 100%;
 font-weight: 500;
@@ -212,11 +206,13 @@ color: #4A628D;
 `
 const Decs = styled.div`
 display: flex;
-font-size:18px;
+font-size:12px;
 height: 25px;
 width: 100%;
 font-weight: 500;
-padding-left: 10px;
+padding-left: 7px;
+padding-top: 0px;
+padding-bottom: 0px;
 color: #4A628D;
 
 @media screen and (max-width:760px){
@@ -233,6 +229,7 @@ height: 540px;
 background-color: #F2F3F6;
 display: flex;
 flex-direction: column;
+line-height:18px;
 
 
 @media screen and (max-width:600px){
@@ -245,7 +242,7 @@ flex-direction: column;
 
 const Card = styled.div`
 width: 350px;
-height: 600px;
+height: 480px;
 background-color: #00243A;
 display: flex;
 justify-content:center;
@@ -260,7 +257,7 @@ padding: 20px;
 
 const Container = styled.div`
 width: 100%;
-height: 750px;
+height: 700px;
 background-color: #00243A;
 display: flex;
 

@@ -6,6 +6,7 @@ import QuickStart from '../Home/InterestComp/QuickStart'
 import AreaStudy from '../Home/InterestComp/AreaStudy'
 import GalleryFlip from '../Home/Gallery/GaleryFlip'
 import Slider from "./SliderCom/SliderCom"
+import VerCon from './VerCon/VerCon'
 
 
 
@@ -16,6 +17,7 @@ function Home() {
             <br/>
             <Allcom />
             <QuickStart />
+            <VerCon />
             <AreaStudy />
             <Slider/>
             <Facts />
