@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled,{ useState} from 'styled-components'
 import pix from "./img/pix.png"
 
 function Card(props) {

@@ -17,7 +17,7 @@ function Learn() {
            color="#fffeff" 
            flexdirection="column"  
            imgpath={pix}
-           text="Flexible Teaching Structure"
+           text="Flexible Teaching Structure for student"
            con="
               
            
