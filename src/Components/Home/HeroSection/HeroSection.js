@@ -34,7 +34,7 @@ const HeroSection = () => {
 				</Mylider>
 			</Wrapper>
 			<TextHold>
-				<h2>GREAT SHEPHERD UNIVERSITY</h2>
+				<h2>GREAT SHEPHERD UNIVERSITY, PORTO-NOVO</h2>
 				<p>
 					Approved and Accredited on the 18 October, 1999 by Decree 
 					No:0136/MENRS/CAB/DC/SP
@@ -67,7 +67,7 @@ const TextHold = styled.div`
 		font-size: 35px;
 		/* width: 100%; */
 		font-weight: bold;
-		width: 26.0ch;
+		width: 38.8ch;
 		animation: typing 10s steps(45, end), blink-caret 0.85s step-end infinite;
 		animation-iteration-count: infinite;
 		white-space: nowrap;
@@ -105,7 +105,7 @@ const TextHold = styled.div`
 
 		h2 {
 			font-size: 17px;
-			width: 258px;
+			width: 254px;
 			/* width: 40.8ch; */
 			overflow: none;
 		}

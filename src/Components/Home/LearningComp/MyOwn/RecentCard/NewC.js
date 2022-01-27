@@ -6,8 +6,6 @@ function NewC() {
   return (
     <Container>
       <br/>
-      <br/>
-      <br/>
       <Wrapper>
         <Content1>Why Choose Us?</Content1>
         <Content2>

@@ -26,17 +26,19 @@ function For() {
 
         </Allflag> */}
         <Title>FOREIGN PARTNERS(AFFILIATED UNIVERSITIES)/INSTITUTIONS</Title>
+        <br/>
         {/* <Arr>Accredited course through affiliation with forign partner universities in Cameroon, France<br/>
         ************************
         </Arr> */}
+       
         <Text>
-          <span>1.Esep le Berger Universite Benin Republic</span>
+          <span>1.Esep le Berger Universite, Benin Republic</span>
           <span>2.Bamenda University of Science and Technology (BUST)</span>
-          <span>3.University of Yaounde Cameroon</span>
-          <span>4.International University of Bamenda Cameroon</span>
-          <span>5.The Institute of Entrepreneurs Nigeria</span>
-          <span>6.Merchant Marine Training Academy Apapa, Lagos Nigeria</span>
-          <span>7.The Chartered Institute of Administration Nigeria</span>
+          <span>3.University of Yaounde, Cameroon</span>
+          <span>4.International University of Bamenda, Cameroon</span>
+          <span>5.The Institute of Entrepreneurs, Nigeria</span>
+          <span>6.Merchant Marine Training Academy Apapa, Lagos, Nigeria</span>
+          <span>7.The Chartered Institute of Administration, Nigeria</span>
 
         </Text>
         
@@ -51,6 +53,7 @@ const Text = styled.div`
 display: flex;
 flex-direction: column;
 width: 40%;
+font-size: 15px;
 
 color: white;
 text-align: center;
@@ -223,20 +226,19 @@ width: 100%;
 /* background-image: url(${img}); */
 background-repeat: repeat-y;
 background-size: cover;
-
 `
 const Wrapper = styled.div`
 
 width: 100%;
 padding: 30px 0;
 // height: 400px;
-background-color: #f6013e;
+background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 /* opacity: 0.9; */
 display: flex;
 justify-content:center;
 align-items: center;
 display: flex;
 flex-direction: column;
-
 `
 

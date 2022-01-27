@@ -114,6 +114,7 @@ const ImageHold = styled.img`
 	object-fit: cover;
 	border: 1px solid silver;
 	margin: 20px;
+	border-radius: 5px;
 
 	@media screen and (max-width: 760px) {
 		width: 320px;

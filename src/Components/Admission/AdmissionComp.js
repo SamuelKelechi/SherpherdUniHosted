@@ -150,14 +150,19 @@ const TextHold = styled.div`
 const Text = styled.div`
 	width: 300px;
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 15px;
 `;
 const FirstComp = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	margin-top: 10px;
+	margin: 10px;
+	background-color: #014E62;
+	height: 200px;
+	color: white;
+	border-radius: 8px;
+	padding: 3px;
 `;
 
 const MainWrapper = styled.div`
@@ -200,10 +205,13 @@ const Container = styled.div`
 	/* background-color: red; */
 	h3 {
 		margin-top: 20px;
+		color: #014E62;
 		/* height: 0; */
 	}
 
 	p {
-		margin-top: 10px;
+		margin-top: 5px;
+		color: #014E69;
+
 	}
 `;
