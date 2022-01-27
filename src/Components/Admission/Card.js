@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from 'styled-components'
 import { DataGrid } from '@mui/x-data-grid';
 import { Table } from '@mui/material';
@@ -27,13 +26,11 @@ const useStyles = makeStyles((theme) =>
 
 const columns = [
   // { field: 'id', headerName: 'ID', width: 70 },
-  { field: 'level', headerName: 'level', width: 130, headerClassName: 'headed', },
-  { field: 'Application-form', headerName: 'Application-form', width: 130 },
-  { field: 'Registration and Admin Fee', headerName: 'Registration and Admin Fee', width: 230 },
-  { field: 'Fee for verification Of result', headerName: 'Fee for verification Of result', width: 230 },
-  { field: 'Tution Fee Per semester', headerName: 'Tution Fee Per semester', width: 230 },
-  { field: 'Total', headerName: 'Total', width: 230 },
- 
+  { field: 'S/n', headerName: 'S/N', width: 60, headerClassName: 'headed', },
+  { field: 'Details', headerName: 'DETAILS', width: 250 },
+  { field: 'Naira', headerName: 'NAIRA', width: 230 },
+  { field: 'Remarks', headerName: 'REMARKS', width: 230 },
+
   // {
   //   field: 'fullName',
   //   headerName: 'Full name',
@@ -55,12 +52,12 @@ function Card() {
   return (
     <Container>
       <Wrapper>
-        <Title>UNDERGRADUATE FEE FOR ALL COURSES EXEPT LAW</Title>
+        <Title>FEE STRUCTURE FOR ENTRY WITH ABE/ICM (Advanced Diploma Level 6)  PROGRAM</Title>
         <Tablecon>
         <DataGrid
         rows={Data}
         columns={columns}
-        pageSize={5}
+        pageSize={18}
         rowsPerPageOptions={[5]}
         className={classes.root}
       
@@ -91,11 +88,21 @@ font-size:25px;
 
 
 const Tablecon = styled.div`
-height: 400px;
-width: 90%;
+height: 1050px;
+width: 80%;
+
+@media screen and (max-width:760px){
+  width: 90%;
+}
 `
 
-const Container = styled.div``
+const Container = styled.div`
+width: 100%;
+display: flex;
+align-items: center;
+justify-content:center;
+
+`
 const Wrapper = styled.div`
 width: 100%;
 flex-direction: column;
@@ -103,7 +110,7 @@ margin-top: 50px;
 display: flex;
 justify-content:center;
 align-items: center;
-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 
 
 

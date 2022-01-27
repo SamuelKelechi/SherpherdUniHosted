@@ -1,45 +1,46 @@
 import React from 'react'
 import styled from 'styled-components'
-import img from "./img/Group110.png"
 import {CgEditBlackPoint} from "react-icons/cg"
 
-function Admin2() {
+function Nb() {
   return (
     <Container>
-    <Wrapper >
-      <img src={img}/>
-    </Wrapper>
+    
     <Accom>
-    ACCOMODATION PER SEMESTER 55,000F CFA (₦55,000)
+    NOTICE BOARD
     </Accom>
     <Point>
-      <span><CgEditBlackPoint/>CONSTANT LIGHT AND WATER SUPPLY</span>
-      <span><CgEditBlackPoint/>BUNKS AND MATTRESS</span>
-      <span><CgEditBlackPoint/>WIFI</span>
+      <span><CgEditBlackPoint/>	Acceptance fee of the sum of ₦25,000 is part of the tuition but non refundable</span>
+      <span><CgEditBlackPoint/>Hostel accommodation available for N50,000 Per semester</span>
+    
     </Point>
     <AllNotice>
-    PAY YOUR TUITION AND OTHER CHARGES OF THE NAIRA EQUIVALENT INTO THIS AUTHORIZED ACCOUNT IN NIGERIA, TELLERS SHOULD BE KEPT AS IT WILL BE EXCHANGED WITH SCHOOL RECEIPT 
+    Please make all your payments in naira.
+Pay your tuition and charges into this authorized account in Nigeria:
+Tellers should be well kept as it will be exchanged with school receipt
+
     <br/>
-ACCOUNT NUMBER: NDIENOBI WORLD HORIZONE SERVICES 
+    Account Name: Ndienobi World Horizone Services
 <br/>
-ACCOUNT NUMBER: 012290484<br/>
-BANK : WEMA BANK.<br/>
-THE CFA SHOULD BE PAID AT THE BURSERY IN THE SCHOOL 
+Account Number: 0122690484(WEMA BANK PLC).<br/>
+
 
     </AllNotice>
   </Container>
   )
 }
 
-export default Admin2
+export default Nb
+
 
 const AllNotice = styled.div`
 width: 52%;
 
 height: auto;
 font-weight:600;
-padding: 10px;
+padding: 20px;
 border: 1px solid lightgray;
+
 border-radius:5px;
 box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 margin-top: 10px;
@@ -47,12 +48,14 @@ margin-bottom: 10px;
 @media screen and (max-width:425px){
  width: 90%;
  font-size: 10px;
+ padding: 0px;
 }
 `
 
 const Point = styled.div`
 display: flex;
 flex-direction: column;
+padding: 10px;
 
 span{
   font-size: 25px;

@@ -1,47 +1,146 @@
 [
   {
     "id":1,
-    "level":"100L",
-    "Application-form":"N10,000",
-    "Registration and Admin Fee":"40,000",
-    "Fee for verification Of result":"N10,000 for all course",
-    "Tution Fee Per semester":"170",
-    "Total":"N230,000"
+    "S/n":"1",
+    "Details":"Application Form",
+    "Naira":"₦10,000",
+    "Remarks":"Once"
+    
   },
   {
     "id":2,
-    "level":"200L",
-    "Application-form":"-",
-    "Registration and Admin Fee":"50,000",
-    "Fee for verification Of result":"-",
-    "Tution Fee Per semester":"170",
-    "Total":"N270,000"
+    "S/n":"2",
+    "Details":"Acceptance Fees",
+    "Naira":"₦10,000",
+    "Remarks":"Once"
+    
   },
   {
     "id":3,
-    "level":"300L",
-    "Application-form":"-",
-    "Registration and Admin Fee":"50,000",
-    "Fee for verification Of result":"-",
-    "Tution Fee Per semester":"250",
-    "Total":"N310,000"
+    "S/n":"3",
+    "Details":"Development Levy",
+    "Naira":"₦15,000",
+    "Remarks":"Yearly"
+  
   },
   {
     "id":4,
-    "level":"400L",
-    "Application-form":"-",
-    "Registration and Admin Fee":"50,000",
-    "Fee for verification Of result":"-",
-    "Tution Fee Per semester":"250,000",
-    "Total":"N310,000"
+    "S/n":"4",
+    "Details":"Student Synergy",
+    "Naira":"₦10,000",
+    "Remarks":"Yearly"
+ 
   },
   {
     "id":5,
-    "level":"",
-    "Application-form":"low",
-    "Registration and Admin Fee":"70,000",
-    "Fee for verification Of result":"10,00",
-    "Tution Fee Per semester":"450 000",
-    "Total":"N510,000"
+    "S/n":"5",
+    "Details":"ID card",
+    "Naira":"₦1,500",
+    "Remarks":"Yearly"
+  
+  },
+  {
+    "id":6,
+    "S/n":"6",
+    "Details":"Matriculation",
+    "Naira":"₦25,000",
+    "Remarks":"Once"
+  
+  },
+  {
+    "id":7,
+    "S/n":"7",
+    "Details":"SUSA Dues (Student Association)",
+    "Naira":"₦1,000",
+    "Remarks":"Per Semester"
+  
+  },
+  {
+    "id":8,
+    "S/n":"8",
+    "Details":"Library",
+    "Naira":"₦5000",
+    "Remarks":"Yearly"
+  
+  },
+  {
+    "id":9,
+    "S/n":"9",
+    "Details":"Transfer fee (Student on transfer)",
+    "Naira":"₦50,000",
+    "Remarks":"Once"
+  
+  },
+  {
+    "id":10,
+    "S/n":"10",
+    "Details":"Internet",
+    "Naira":"₦10,000",
+    "Remarks":"Yearly"
+  
+  },
+  {
+    "id":11,
+    "S/n":"",
+    "Details":"Subtotal  ",
+    "Naira":"₦152,500",
+    "Remarks":""
+  
+  },
+  {
+    "id":12,
+    "S/n":"",
+    "Details":" --",
+    "Naira":"---",
+    "Remarks":"---"
+  
+  },
+  {
+    "id":13,
+    "S/n":"1",
+    "Details":"Tuition (7th Semester)",
+    "Naira":"₦200,000",
+    "Remarks":""
+  
+  },
+  {
+    "id":14,
+    "S/n":"2",
+    "Details":"Tuition (8th Semester)  ",
+    "Naira":"₦200,000",
+    "Remarks":""
+  
+  },
+  {
+    "id":15,
+    "S/n":"3",
+    "Details":"Hostel (7th Semester)  ",
+    "Naira":"₦50,000",
+    "Remarks":""
+  
+  },
+  {
+    "id":16,
+    "S/n":"",
+    "Details":"Hostel (8th Semester)  ",
+    "Naira":"₦50,000",
+    "Remarks":""
+  
+  },
+  {
+    "id":17,
+    "S/n":"",
+    "Details":"Subtotal",
+    "Naira":"₦500,000",
+    "Remarks":""
+  
+  },
+  {
+    "id":18,
+    "S/n":"",
+    "Details":"Grand total ",
+    "Naira":"₦652,500",
+    "Remarks":""
+  
   }
 ]
