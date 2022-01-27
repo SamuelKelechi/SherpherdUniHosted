@@ -11,6 +11,7 @@ import Inter from "./Inter.js"
 import Requirements from './Requirements.js'
 import School from './School.js'
 import pic from "../Home/Images/3.jpg";
+import Nb from "./Nb"
 
 function Admission() {
   return (
@@ -26,11 +27,14 @@ function Admission() {
         <Wrapper>
           <AdmissionComp/>
           <Inter/>
+          <Card/>
+          <Nb />
           <School/>
+         
           <Admi/>
           <Admin2/>
-          {/* <Card/>
-          <Card2/>
+           
+          {/* <Card2/>
           <Card3/> */}
           <Requirements/>
           <For/>

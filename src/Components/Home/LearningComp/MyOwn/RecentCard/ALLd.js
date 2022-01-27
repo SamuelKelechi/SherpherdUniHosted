@@ -50,7 +50,7 @@ transform: scale(1);
 transition: all 350ms;
 
 &:hover{
-  transform:scale(1.03);
+  transform:scale(1.2);
   color: #EF9F27;
 };
 
@@ -63,7 +63,7 @@ transform: scale(1);
 transition: all 350ms;
 
 &:hover{
-  transform:scale(1.03);
+  transform:scale(1.2);
   color: #EF9F27;
 };
 
@@ -76,7 +76,7 @@ transform: scale(1);
 transition: all 350ms;
 
 &:hover{
-  transform:scale(1.03);
+  transform:scale(1.2);
   color: #EF9F27;
 };
 
@@ -89,7 +89,7 @@ transform: scale(1);
 transition: all 350ms;
 
 &:hover{
-  transform:scale(1.03);
+  transform:scale(1.2);
   color: #EF9F27;
 };
 
