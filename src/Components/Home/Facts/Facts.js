@@ -6,6 +6,7 @@ import LibraryBooksIcon from '@mui/icons-material/LibraryBooks';
 import SchoolIcon from '@mui/icons-material/School';
 import PublicIcon from '@mui/icons-material/Public';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+import {Link} from 'react-router-dom';
 
 
 function Facts() {
@@ -63,7 +64,7 @@ function Facts() {
                             Shepherd University is to Apply! And obtain certificates that are not compromised
                             by shortcuts, sharp, and corrupt practices.
                         </TextContain>
-                        <Button variant="contained">Find Out How</Button>
+                        <Link to="/admission" style={{textDecoration:"none"}}><Button variant="contained">Find Out How</Button></Link>
                     </StartedHolder>
                 </ApplyBack>
             </ApplyContain>

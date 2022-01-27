@@ -38,7 +38,7 @@ const Contact = () => {
 				<AddressHolder>
 					<Icon2></Icon2>
 					<Email>Email: esepgsadmissions@gmail.com</Email>
-					<PhoneNumber>Phone Number:+22964251703 +2347062944349 </PhoneNumber>
+					<PhoneNumber>Phone Number:+22964251703, +2347062944349 </PhoneNumber>
 					<MapDiv>
 						<iframe
 							src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.149164034653!2d2.6246083141499477!3d6.502793825209307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b5a02450e9ef9%3A0xae02282713c1682a!2sLong%20Rail%20Kandevi%C3%A9%2C%20Porto-Novo%2C%20Benin!5e0!3m2!1sen!2sng!4v1641570049675!5m2!1sen!2sng'
@@ -77,10 +77,12 @@ const MapDiv = styled.div`
 `;
 const PhoneNumber = styled.div`
 	color: black;
+	font-weight: bold;
 `;
 
 const Email = styled.div`
 	color: black;
+	font-weight: bold;
 `;
 
 const Icon2 = styled(BusinessIcon)`
@@ -178,6 +180,8 @@ const FormCard = styled.div`
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	margin: 8px;
+
 	@media screen and (max-width: 768px) {
 		height: 300px;
 		width: 280px;
@@ -205,6 +209,8 @@ const ImageCard = styled.div`
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+	margin: 8px;
+
 	@media screen and (max-width: 768px) {
 		height: 300px;
 		width: 280px;
@@ -218,12 +224,12 @@ const ImageCard = styled.div`
 `;
 
 const CardHolder = styled.div`
-	height: 600px;
-	width: 55%;
+	width: 70%;
 	margin-top: 40px;
 	color: black;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	flex-wrap: wrap;
 
 	@media screen and (max-width: 768px) {
 		height: 700px;
@@ -325,10 +331,8 @@ const Wrapper = styled.div`
 `;
 
 const Container = styled.div`
-	height: 100%;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
 `;

@@ -1,6 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
-import pix from "./ImageFile/img.jpg"
+import React from 'react';
+import styled from 'styled-components';
+import pix from "./ImageFile/img.jpg";
+import {Link} from 'react-router-dom';
+
 
 const QuickStart = () => {
     return (
@@ -18,6 +20,9 @@ const QuickStart = () => {
                         <br />
                         <br />
                         The Great Shepherd University (ESEP-LE BERGER) PORTO NOVO Republic of Benin is a private institution established by Law. It has an operational license given by the government of Benin Republic and has graduated several sets since its establishment in 1999. The University is therefore calling for application from suitably qualified candidates for admission into Diploma, Degree and Postgraduate Degrees.
+                        <br />
+                        <br />
+                        Our fees are affordable and we also offer scholarship to eligible candidates that meets up our criteria. To know if you are eligible for our scholarship scheme, you can read on our criteria <Link to="/schoolarship" style={{color:"red"}}>here...</Link>
                     </OtherText>
                 </TextHolder>
 
@@ -36,7 +41,7 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     font-family: poppins;
-    margin-top: 40px;
+    margin-top: 10px;
 
     @media screen and (max-width:768px){
     height: 800px;
@@ -81,6 +86,7 @@ const Image = styled.img`
     width:500px;
     height: 400px;
     object-fit: cover;
+    border-radius: 8px;
 
     @media screen and (max-width: 780px){
         width:100%;

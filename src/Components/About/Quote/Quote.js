@@ -36,12 +36,12 @@ function Quote() {
                             Our standard is quality and it is flying high.
                             We at Great Shepherd/Esep_Le Berger pride ourselves as "God's Own Project".
                             We will not relent our effort to produce graduate that are excellent in academics and character. 
-                            We Invite students and parents who love academic excellence and functional education to come on board.At Great Shepherd /Esep_Le  Berger  Porto-Novo, We have our eyes on the future.
+                            We Invite students and parents who love academic excellence and functional education to come on board. At Great Shepherd /Esep_Le  Berger  Porto-Novo, We have our eyes on the future.
                             </p>
                             {/* <br/> */}
 
                             <h3>
-                            Dr.(Barr.)Augustine Pekana.N Vice Chancellor <br/>
+                            Dr.(Barr.)Augustine Pekana.N <br/>
                             (LLB(Hons);MMP;MLCS & Ph.D
                             </h3>
      

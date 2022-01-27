@@ -58,7 +58,7 @@ PHONE NUMBERS- 08060209912, 07063879167</DD>
           <br/>
           
             <Title>STATUS VERIFICATION</Title>
-            <DD>Esep- Le Berger Université (French acronym) means the shepherd University. Therefore, to look up the Shepherd University on the list of accredited Universities in Benin Republic in the Federal Ministry of Education &National Youth Service Corps (NYSC) office, use the French acronym Esep-Le Berger Benin.</DD>
+            <DD>Esep- Le Berger Université (French acronym) means the Shepherd University. Therefore, to look up the Shepherd University on the list of accredited Universities in Benin Republic in the Federal Ministry of Education & National Youth Service Corps (NYSC) office, use the French acronym Esep-Le Berger Benin.</DD>
           </Decs>
         </CardH>
     
@@ -159,6 +159,7 @@ flex-wrap: wrap;
   padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 `

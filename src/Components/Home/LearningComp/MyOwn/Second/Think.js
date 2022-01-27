@@ -34,7 +34,7 @@ export default Think;
 
 const ButtonCon = styled.div`
 	height: 50px;
-	width: 300px;
+	width: 250px;
 	background-color: #fffeff;
 	color: #fc1028;
 	text-align: center;
@@ -46,8 +46,7 @@ const ButtonCon = styled.div`
 	align-items: center;
 	border-radius: 5px;
 	font-weight: 600;
-
-	margin-top: -20px;
+	margin-top: -25px;
 
 	a {
 		text-decoration: none;
@@ -138,7 +137,9 @@ const Container = styled.div`
 const Wrapper = styled.div`
 	width: 100%;
 	height: 400px;
-	background-color: #fc1028;
+	// background-color: #fc1028;
+	background-color: #7f5a83;
+	background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
 	opacity: 0.9;
 	display: flex;
 	justify-content: center;

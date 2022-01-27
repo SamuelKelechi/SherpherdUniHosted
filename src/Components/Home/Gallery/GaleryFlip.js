@@ -13,7 +13,7 @@ const GalleryFlip = () => {
         <GalleryWrapper>
             <TextHolder>
                 You Want to Know How You Can Join Us?
-               <Link to="/gallery" style={{textDecoration:"none"}}> <Button variant="outlined" size="" style={{height:"50px", width:"280px"}}><GiFastForwardButton /></Button></Link>
+               <Link to="" style={{textDecoration:"none"}}> <Button variant="outlined" size="" style={{height:"50px", width:"280px"}}><GiFastForwardButton /></Button></Link>
             </TextHolder>
             <FlipHolder>
                 <Flip />

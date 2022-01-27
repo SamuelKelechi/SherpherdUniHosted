@@ -19,14 +19,14 @@ function WhyUni() {
 *	We have been offering   scholarships to qualified applicants since 2014 till date.
 *	Our fee structure is affordable with flexible payments arrangements that can be spread within the academic year.
 *	Students graduate within record time and are mobilized for the NYSC almost immediately.
-*	Most of our graduate are gainfully employed in the public as well as the private sectors.
+*	Most of our graduates are gainfully employed in the public as well as the private sectors.
 *	We assist our graduates in gaining admission as well as scholarship into Foreign Universities in France, Europe, UK, USA, and Canada etc.
 *	Our students are engaged in weekly academic workshops and seminars.
 *	We have one of the best hostel facilities with bunks and mattresses, WIFI, constant water & light for our students (optional) at affordable amount.
 *	There is standard library, computer and language laboratories.
 *	Our school stands out as the best overall winner in inter-Schools debate Competition among Anglophone Schools in Benin Republic (2018) till date.
 *	Our students have records of excellent performance in public and private sectors and in other foreign Universities in Europe, UK, USA, Canada etc.
-*	We encourage and sponsor talented students insocial, cognitive, and spiritual activities in line with our vision and mission.
+*	We encourage and sponsor talented students in social, cognitive, and spiritual activities in line with our vision and mission.
 *	NCE, OND, University diploma holders are qualified for direct entry into our University.
 *	Meanwhile. ND, HND (Higher diploma as well as professional qualifications are admissible for (BA), (BSc) degree CONVERSION.
 *	Masters degree: 3 semesters minimum for degree ND or professional certificate holders.
@@ -89,7 +89,8 @@ const DownBorder = Styled.div`
 
 const Text = Styled.div`
     width: 90%;
-    text-align: center;
+    // text-align: center;
+    word-spacing: 3px;
     margin-bottom: 25px;
 
     @media screen and (max-width: 425px) {

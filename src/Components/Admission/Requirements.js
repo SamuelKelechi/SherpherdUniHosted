@@ -10,63 +10,67 @@ const Requirements = () => {
 				<FirstComp>
 					<TextHold>
 						{" "}
-						<span>
-							<AiFillCheckCircle />
-						</span>
 						<Text>
-							A copy of O'Level result (WAEC, NECO) in not more than two sittings including
-							English Language and Mathematics.
+							<span>	
+								<AiFillCheckCircle />A copy of O'Level results (WAEC, NECO) in not more than two sittings including
+								English Language and Mathematics.
+							</span>
 						</Text>
 					</TextHold>
+					<br/>
 					<TextHold>
 						{" "}
-						<span>
-							<AiFillCheckCircle />
-						</span>
-						<Text>A copy of birth Certificate </Text>
-					</TextHold>
-					<TextHold>
-						{" "}
-						<span>
-							<AiFillCheckCircle />
-						</span>
 						<Text>
-							Four passport size photographs with coloured background in an A4 envelope.
+							<span> 
+								<AiFillCheckCircle />A copy of birth Certificate
+							</span>
+						</Text>
+					</TextHold>
+					<br/>
+					<TextHold>
+						{" "}
+						<Text>
+							<span>
+								<AiFillCheckCircle />Four passport size photographs with coloured background in an A4 envelope.
+							</span>
 						</Text>
 					</TextHold>
 				</FirstComp>
 				<FirstComp>
 					<TextHold>
 						{" "}
-						<span>
-							<AiFillCheckCircle />
-						</span>
 						<Text>
-							Travelling documents (international passport only)
+							<span>
+								<AiFillCheckCircle />Travelling documents (international passport only)
+							</span>
 						</Text>
 					</TextHold>
+					<br/>
 					<TextHold>
 						{" "}
-						<span>
-							<AiFillCheckCircle />
-						</span>
-						<Text>Two passport photographs of sponsors</Text>
-					</TextHold>
-					<TextHold>
-						{" "}
-						<span>
-							<AiFillCheckCircle />
-						</span>
-						<Text>A rim of A4 size paper</Text>
-					</TextHold>
-					<TextHold>
-						{" "}
-						<span>
-							<AiFillCheckCircle />
-						</span>
 						<Text>
-							Those with direct entry and conversion, the above requirements
-							should be accompanied.
+							<span>
+								<AiFillCheckCircle />Two passport photographs of sponsors
+							</span>
+						</Text>
+					</TextHold>
+					<br/>
+					<TextHold>
+						{" "}
+						<Text>
+							<span>
+								<AiFillCheckCircle />A rim of A4 size paper
+							</span>
+						</Text>
+					</TextHold>
+					<br/>
+					<TextHold>
+						{" "}
+						<Text>
+							<span>
+								<AiFillCheckCircle />Those with direct entry and conversion, the above requirements
+								should be accompanied.
+							</span>
 						</Text>
 					</TextHold>
 				</FirstComp>
@@ -200,10 +204,14 @@ const Requirements = () => {
 									<br />
 									<br />
 									<span style={{ fontWeight: "bold" }}>
-										for inquiries contact
+										For more enquiries contact
 									</span>{" "}
-									<br /> +229 642 51703, +234 706 294 4349 <br /> +229 6092
-									5020, +229 6666 6774 <br /> Email : esepgsadmissions@gmail.com
+									<br /> 
+									The Admission Officer: +234 7030407955, +229 94342669 
+									<br />
+									The Registrar: +234 8035034209, +229 61390939
+									<br /> 
+									Email : esepgsadmissions@gmail.com
 								</Texting>
 							</TextHold>
 						</FirstComp>

@@ -19,8 +19,8 @@ function ALLd() {
    <Container>
      <Wrapper>
        <DCard  aos="fade-up"  aosda="top-center"  text="Flexible Teaching Structure"  icons= {<Dt/>}/>
-       <DCard  aos="fade-up"  aosda="top-center"  text="Learning made easy" icons= {<Ds/>}/>
-       <DCard  aos="fade-up"  aosda="top-center"  text="Interactive student union"  icons= {<Do/>}/>
+       <DCard  aos="fade-up"  aosda="top-center"  text="Learning Made Easy" icons= {<Ds/>}/>
+       <DCard  aos="fade-up"  aosda="top-center"  text="Interactive Student Union"  icons= {<Do/>}/>
        <DCard  aos="fade-up"  aosda="top-center"  text="Conducive Learning Environment" icons= {<Dp/>}/>
      </Wrapper>
    </Container>
