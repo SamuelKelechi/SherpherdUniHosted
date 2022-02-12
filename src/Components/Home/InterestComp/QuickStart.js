@@ -51,6 +51,11 @@ const Container = styled.div`
     align-items: center;
     font-family: poppins;
 }
+
+    @media screen and (max-width: 425px){
+        margin-top: 70px;
+
+    }
 `
 
 const Content = styled.div`

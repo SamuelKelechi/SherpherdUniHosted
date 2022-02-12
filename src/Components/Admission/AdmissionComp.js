@@ -17,7 +17,7 @@ const AdmissionComp = () => {
 							<AiFillCheckCircle />
 						</span>
 						<Text>
-							Linguistics(French and English , interpretation and transactional)
+							Linguistics(French and English , Interpretation and Translation)
 						</Text>
 					</TextHold>
 					<TextHold>
@@ -32,7 +32,7 @@ const AdmissionComp = () => {
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>International Relation / political science</Text>
+						<Text>International Relation / Political Science</Text>
 					</TextHold>
 					<TextHold>
 						{" "}
@@ -55,7 +55,7 @@ const AdmissionComp = () => {
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>Transportation & logistic movement</Text>
+						<Text>Transport & Logistic Management</Text>
 					</TextHold>
 					<TextHold>
 						{" "}
@@ -102,7 +102,7 @@ const AdmissionComp = () => {
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>Bsc Conversion</Text>
+						<Text>BSc Conversion</Text>
 					</TextHold>
 					<TextHold>
 						{" "}
@@ -116,7 +116,7 @@ const AdmissionComp = () => {
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>International Relation / political science</Text>
+						<Text>International Relation / Political Science</Text>
 					</TextHold>
 					<TextHold>
 						{" "}

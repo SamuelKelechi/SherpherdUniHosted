@@ -10,7 +10,7 @@ function Admin2() {
       <img src={img}/>
     </Wrapper>
     <Accom>
-    ACCOMODATION PER SEMESTER 50,000F CFA (₦50,000)
+    ACCOMODATION PER SEMESTER 55,000F CFA (₦50,000)
     </Accom>
     <Point>
       <span><CgEditBlackPoint/>CONSTANT LIGHT AND WATER SUPPLY</span>

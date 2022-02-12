@@ -1,29 +1,34 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
+import Registrar from '../Images/Registrar.jpeg';
+import Founder from '../Images/Founder.jpeg';
+import Vice from '../Images/vice.jpeg';
+
+
 
 function Admini() {
   return (
    <Container>
        <Wrapper>
          <Card>
-            <Avatar></Avatar>
-            <Name>Name</Name>
-            <Office>Office</Office>
-            <Obtained>Qualifications</Obtained>
+            <Avatar src={Registrar}/>
+            <Name>Dr. Adebola Akande</Name>
+            <Office>Registrar</Office>
+            <Obtained>Bsc, MBA, PH.D, FCIML</Obtained>
          </Card>
 
          <Card>
-            <Avatar></Avatar>
-            <Name>Name</Name>
-            <Office>Office</Office>
-            <Obtained>Qualifications</Obtained>
+            <Avatar2 src={Founder} />
+            <Name>Prof. Ganonlon Germain</Name>
+            <Office>President/Founder of</Office>
+            <Obtained>Great Shepherd University Partner Institution in Benin Republic <br/> (Esep Le Berger)</Obtained>
          </Card>
 
          <Card>
-            <Avatar></Avatar>
-            <Name>Name</Name>
-            <Office>Office</Office>
-            <Obtained>Qualifications</Obtained>
+            <Avatar src={Vice} />
+            <Name>Dr. Augustine Pekana N.</Name>
+            <Office>Vice Chancellor</Office>
+            <Obtained>LLB(Hons), MMP, MLCS & Ph.D</Obtained>
          </Card>
        </Wrapper>
    </Container>
@@ -58,16 +63,24 @@ const Card = styled.div`
   align-items: center;
   margin: 10px;
 `
-const Avatar = styled.div`
+const Avatar = styled.img`
   width: 250px;
   height: 250px;
-  background-color: white;
+  border-radius: 50%;
+  object-fit: center;
+  border: 1px solid grey;
+`
+
+const Avatar2 = styled.img`
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
   border: 1px solid grey;
 `
 
 const Name = styled.div`
+  color: #00243A;
   font-size: 19px;
   font-weight: bold;
   margin-top: 8px;
@@ -77,7 +90,9 @@ const Office = styled.div`
   font-weight: bold;
 `
 
-const Obtained = styled.div``
+const Obtained = styled.div`
+  text-align: center;
+`
 
 
 

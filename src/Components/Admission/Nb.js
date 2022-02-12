@@ -11,7 +11,7 @@ function Nb() {
     </Accom>
     <Point>
       <span><CgEditBlackPoint/>	Acceptance fee of the sum of ₦25,000 is part of the tuition but non refundable</span>
-      <span><CgEditBlackPoint/>Hostel accommodation available for N50,000 Per semester</span>
+      <span><CgEditBlackPoint/>Hostel accommodation available for N50,000 (55,000CFA) Per semester</span>
     
     </Point>
     <AllNotice>
