@@ -8,9 +8,6 @@ import GalleryFlip from '../Home/Gallery/GaleryFlip'
 import Slider from "./SliderCom/SliderCom"
 import VerCon from "../Home/VerCon/VerCon"
 import Admini from "../Home/Administrator/Admini"
-import VerCon from './VerCon/VerCon'
-
-
 
 function Home() {
     return (
@@ -28,4 +25,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Home;

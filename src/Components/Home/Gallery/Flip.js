@@ -20,10 +20,6 @@ const slideImages = [
     // caption: 'Slide 3'
   },
   {
-    url: 'https://firebasestorage.googleapis.com/v0/b/silver-quest-296801.appspot.com/o/4.jpg?alt=media&token=fd876d35-b6bb-44aa-bfeb-16463de52009',
-    // caption: 'Slide 4'
-  },
-  {
     url: 'https://firebasestorage.googleapis.com/v0/b/silver-quest-296801.appspot.com/o/5.jpeg?alt=media&token=f789ebbc-532c-45cd-9b95-906baefc27db',
     // caption: 'Slide 5'
   },

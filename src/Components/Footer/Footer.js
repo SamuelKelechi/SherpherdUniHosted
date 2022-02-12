@@ -13,36 +13,32 @@ const Footer = () => {
 			<Container>
 				<Wrapper>
 					<ContentWrapper>
-						<ContentText1>Home</ContentText1>
-
-						<Direct1>How it Work</Direct1>
-						<Direct2>Testimonia</Direct2>
-						<Direct3>Career</Direct3>
-						<Direct4>Investor</Direct4>
+						<Link to="/" style={{textDecoration:"none", color:"white"}}><ContentText1>Home</ContentText1></Link>
+						<Direct1>Why choose us</Direct1>
+						<Direct2>Facts about us</Direct2>
+						<Direct3>Area of study</Direct3>
+						<Direct4>Recent Graduates</Direct4>
 					</ContentWrapper>
 					<ContentWrapper>
-						<ContentText1>About Us</ContentText1>
-
-						<Direct1>How it Work</Direct1>
-						<Direct2>Testimonia</Direct2>
-						<Direct3>Career</Direct3>
-						<Direct4>Investor</Direct4>
+					<Link to="/about" style={{textDecoration:"none", color:"white"}}><ContentText1>About Us</ContentText1></Link>
+						<Direct1>Why Great Shepherd?</Direct1>
+						<Direct2>Our vision</Direct2>
+						<Direct3>Our mission</Direct3>
+						<Direct4>Our core values</Direct4>
 					</ContentWrapper>
 					<ContentWrapper>
-						<ContentText1>Admission</ContentText1>
-
-						<Direct1>How it Work</Direct1>
-						<Direct2>Testimonia</Direct2>
-						<Direct3>Career</Direct3>
-						<Direct4>Investor</Direct4>
+					<Link to="/admission" style={{textDecoration:"none", color:"white"}}><ContentText1>Admission</ContentText1></Link>
+						<Direct1>Accredicted Courses</Direct1>
+						<Direct2>International affiliation</Direct2>
+						<Direct3>Scholarship Eligibility</Direct3>
+						<Direct4>Our facilities</Direct4>
 					</ContentWrapper>
 					<ContentWrapper>
-						<ContentText1>Contact</ContentText1>
-
-						<Direct1>How it Work</Direct1>
-						<Direct2>Testimonia</Direct2>
-						<Direct3>Career</Direct3>
-						<Direct4>Investor</Direct4>
+					<Link to="/contact" style={{textDecoration:"none", color:"white"}}><ContentText1>Contact</ContentText1></Link>
+						<Direct1>Facebook</Direct1>
+						<Direct2>Twitter</Direct2>
+						<Direct3>Instagram</Direct3>
+						<Direct4>WhatsApp</Direct4>
 					</ContentWrapper>
 				</Wrapper>
 			</Container>
@@ -119,6 +115,7 @@ const ContentWrapperm = styled.div`
 `;
 const ContentText1 = styled.div`
 	font-weight: bold;
+	cursor: pointer;
 `;
 const ContentText2 = styled.div`
 	font-weight: 300;

@@ -12,6 +12,7 @@ import { GlobalProvider } from "./Components/Global/GlobalContext";
 import AdminSignUp from "./Components/DashboardComp/AdminSignUp";
 import Schoolarship from "./Components/Schoolarship/Schoolarship";
 import ScrollToTop from "./ScrollToTop";
+import Chat from "./Components/Chat"
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 								<Route path='/adminSignup' element={<AdminSignUp />} />
 								<Route path='/adminDashboard' element={<AdminDash />} />
 							</Routes>
+							<Chat />
 						<Footer />
 					</ScrollToTop>
 				</Router>

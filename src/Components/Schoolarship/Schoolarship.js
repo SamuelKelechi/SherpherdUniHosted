@@ -151,7 +151,7 @@ const FirstComp = styled.div`
 	align-items: center;
 	flex-direction: column;
 
-	margin: 20px;
+	// margin: 20px;
 	/* margin-top: -10px; */
 	/* margin-left: 40px; */
 
@@ -198,12 +198,16 @@ const Holder = styled.div`
 	flex-direction: column;
 	text-align: center;
 
+	@media screen and (max-width: 425px){
+		width: 98%
+	}
+
 	h2 {
 		width: 60%;
 		font-size: 19px;
 
 		@media screen and (max-width: 600px) {
-			width: 100%;
+			width: 95%;
 			font-size: 13px;
 		}
 	}
@@ -217,4 +221,5 @@ const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	min-height: 80vh;
+	align-items: center;
 `;

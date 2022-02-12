@@ -14,8 +14,8 @@ function VerCon() {
   return (
     <Container>
       <Wrapper>
-        <CardH data-aos="fade-right"
-     data-aos-offset="300"
+        <CardH data-aos="fade-up"
+     data-aos-offset="200"
      data-aos-easing="ease-in-sine">
         <br/>
             <br/>
@@ -39,7 +39,7 @@ ADDRESS- 6, Surulere Street, Orilowo Ejigbo, Lagos, Nigeria.
 PHONE NUMBERS- 08060209912, 07063879167</DD>
           </Decs>
         </CardH>
-        <CardH data-aos="fade-left"
+        <CardH data-aos="fade-up"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine">
            <br/>
@@ -144,16 +144,15 @@ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30p
 
 const Container = styled.div`
 width: 100%;
-height: 370px;
+// height: 370px;
 background-color: #00243A;
 margin-bottom: 50px;
 display: flex;
-
 justify-content:center;
 align-items: center;
 padding-bottom: 40px;
-
 flex-wrap: wrap;
+
 @media screen and (max-width:760px){
   height: auto;
   padding-bottom: 100px;
@@ -161,13 +160,13 @@ flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 30px;
 }
-
 `
 const Wrapper = styled.div`
-width: 55%;
-height: 350px;
+width: 70%;
+// height: 350px;
 display: flex;
 justify-content:space-around;
+flex-wrap: wrap;
 
 
 

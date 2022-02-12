@@ -53,7 +53,7 @@ function SliderCom() {
   };
   return (
       <Container>
-        <span>Our Recent Graduate</span>
+        <span>Our Recent Graduates</span>
         <br/>
         <Wrapper>
         <Slider {...settings}>

@@ -29,7 +29,7 @@ const Contact = () => {
 						<Input placeholder='Name' />
 						<Input placeholder='Email address' />
 						<Input placeholder='phone No' />
-						<MessageInput placeholder='Your message' />
+						<textarea placeholder='Your message' column="50"/>
 						<ButtonHolder>
 							<ButtonS>Submit</ButtonS>
 						</ButtonHolder>
@@ -37,7 +37,7 @@ const Contact = () => {
 				</CardHolder>
 				<AddressHolder>
 					<Icon2></Icon2>
-					<Email>Email: esepgsadmissions@gmail.com</Email>
+					<Email>Email: esepgsadmissions@gmail.com <br/>esepadmissions@gmail.com</Email>
 					<PhoneNumber>Phone Number:+22964251703, +2347062944349 </PhoneNumber>
 					<MapDiv>
 						<iframe
@@ -74,6 +74,7 @@ const MapDiv = styled.div`
 			width: 100%;
 		}
 	}
+
 `;
 const PhoneNumber = styled.div`
 	color: black;
@@ -133,26 +134,26 @@ const Space2 = styled.div`
 	}
 `;
 
-const MessageInput = styled.input`
-	height: 120px;
-	width: 500px;
-	margin-top: 20px;
-	outline: none;
-	border-radius: 3px;
-	border: 1px solid lightgray;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	@media screen and (max-width: 768px) {
-		height: 120px;
-		width: 270px;
-		margin-top: 20px;
-		text-transform: capitalize;
-		outline: none;
-		border-radius: 3px;
-		border: 1px solid lightgray;
-		padding-left: 10px;
-	}
-`;
+// const MessageInput = styled.input`
+// 	height: 120px;
+// 	width: 500px;
+// 	margin-top: 20px;
+// 	outline: none;
+// 	border-radius: 3px;
+// 	border: 1px solid lightgray;
+// 	padding-left: 10px;
+// 	padding-bottom: 10px;
+// 	@media screen and (max-width: 768px) {
+// 		height: 120px;
+// 		width: 270px;
+// 		margin-top: 20px;
+// 		text-transform: capitalize;
+// 		outline: none;
+// 		border-radius: 3px;
+// 		border: 1px solid lightgray;
+// 		padding-left: 10px;
+// 	}
+// `;
 const Input = styled.input`
 	height: 50px;
 	width: 500px;
@@ -164,7 +165,7 @@ const Input = styled.input`
 	padding-left: 10px;
 
 	@media screen and (max-width: 768px) {
-		height: 50px;
+		height: 35px;
 		width: 270px;
 		margin-top: 20px;
 		text-transform: capitalize;
@@ -182,8 +183,23 @@ const FormCard = styled.div`
 	flex-direction: column;
 	margin: 8px;
 
+	textarea {
+		margin-top: 20px;
+		text-transform: capitalize;
+		outline: none;
+		border-radius: 3px;
+		border: 1px solid lightgray;
+		padding-left: 10px;
+		width: 500px;
+
+		@media screen and (max-width: 768px) {
+			width: 270px;	
+		} 
+
+	}
+
 	@media screen and (max-width: 768px) {
-		height: 300px;
+		height:340px;
 		width: 280px;
 		display: flex;
 		justify-content: center;

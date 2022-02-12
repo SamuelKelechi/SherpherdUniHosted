@@ -13,6 +13,7 @@ import { GlobalContext } from "../Global/GlobalContext";
 import { app } from "../../Base";
 import { BsCaretDownFill } from "react-icons/bs";
 import { SiGooglescholar } from "react-icons/si";
+import LogoPix from './Logo.png'
 
 const HeaderComponent = () => {
 	const navigate = useNavigate();
@@ -25,10 +26,7 @@ const HeaderComponent = () => {
 	return (
 		<>
 			<Container>
-				<Logo>
-					<FaSchool style={{ fontSize: "19px" }} />
-					<span>School</span>
-				</Logo>
+				<Logo src={LogoPix}/>
 
 				<Wrapper>
 					<Anchor>
@@ -444,9 +442,10 @@ const Container = styled.div`
 	}
 `;
 
-const Logo = styled.div`
-	width: 100px;
-	height: 40px;
+const Logo = styled.img`
+	width: 50px;
+	height: 45px;
+	background-color: white;
 	object-fit: contain;
 	cursor: pointer;
 	margin-left: 30px;
