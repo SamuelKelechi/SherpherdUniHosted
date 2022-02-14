@@ -33,7 +33,7 @@ function App() {
 								<Route path='/adminSignup' element={<AdminSignUp />} />
 								<Route path='/adminDashboard' element={<AdminDash />} />
 							</Routes>
-							<Chat />
+							<Chat /> 
 						<Footer />
 					</ScrollToTop>
 				</Router>

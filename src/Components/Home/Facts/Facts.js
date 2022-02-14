@@ -82,7 +82,7 @@ const FactContainer = styled.div`
     align-items: center;
     background-color: whitesmoke;
     padding: 10px 0;
-    margin-top: 30px;
+    margin-top: -60px;
 `
 
 const QuickContain = styled.div`
