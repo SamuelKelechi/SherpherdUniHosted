@@ -11,6 +11,7 @@ import AdminDash from "./Components/DashboardComp/AdminDash";
 import { GlobalProvider } from "./Components/Global/GlobalContext";
 import AdminSignUp from "./Components/DashboardComp/AdminSignUp";
 import Schoolarship from "./Components/Schoolarship/Schoolarship";
+import Form from "./Components/Home/Form/Form"
 import ScrollToTop from "./ScrollToTop";
 import Chat from "./Components/Chat"
 
@@ -27,6 +28,7 @@ function App() {
 								<Route path='/about' element={<About />} />
 								<Route path='/signup' element={<Signup />} />
 								<Route path='/admission' element={<Admission />} />
+								<Route path='/form' element={<Form />} />
 								<Route path='/contact' element={<Contact />} />
 								<Route path='/schoolarship' element={<Schoolarship />} />
 								<Route path='/studentDashboard' element={<StudentDash />} />

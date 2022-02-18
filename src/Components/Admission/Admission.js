@@ -12,6 +12,8 @@ import Requirements from './Requirements.js'
 import School from './School.js'
 import pic from "../Home/Images/3.jpg";
 import Nb from "./Nb"
+import Button from '@mui/material/Button';
+import Link from "styled-components"
 
 function Admission() {
   return (
@@ -23,7 +25,8 @@ function Admission() {
 				<Texting>
 					Admission <Line></Line>
 				</Texting>
-			</Heading>
+				{/* <Link to="/form" style={{textDecoration:"none"}}><Button variant="contained">Apply Here</Button></Link> */}
+		</Heading>
         <Wrapper>
           <AdmissionComp/>
           <Inter/>
