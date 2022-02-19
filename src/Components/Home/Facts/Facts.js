@@ -64,7 +64,7 @@ function Facts() {
                             Shepherd University is to Apply! And obtain certificates that are not compromised
                             by shortcuts, sharp, and corrupt practices.
                         </TextContain>
-                        <Link to="/admission" style={{textDecoration:"none"}}><Button variant="contained">Find Out How</Button></Link>
+                        <Link to="/form" style={{textDecoration:"none"}}><Button variant="contained">Apply Here</Button></Link>
                     </StartedHolder>
                 </ApplyBack>
             </ApplyContain>
