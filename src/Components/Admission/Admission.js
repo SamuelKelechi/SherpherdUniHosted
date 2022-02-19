@@ -13,19 +13,19 @@ import School from './School.js'
 import pic from "../Home/Images/3.jpg";
 import Nb from "./Nb"
 import Button from '@mui/material/Button';
-import Link from "styled-components"
+import {Link} from "react-router-dom"
 
 function Admission() {
   return (
     <div>
       <Container>
-      <Heading>
+      	<Heading>
 				{" "}
 				<MainImage src={pic} />
 				<Texting>
 					Admission <Line></Line>
 				</Texting>
-				{/* <Link to="/form" style={{textDecoration:"none"}}><Button variant="contained">Apply Here</Button></Link> */}
+				<Link to="/form" style={{textDecoration:"none"}}><Button variant='outline' style={{color:"white", border:"1px solid whitesmoke"}}>Apply Here..</Button></Link>
 		</Heading>
         <Wrapper>
           <AdmissionComp/>
@@ -90,4 +90,9 @@ const Heading = styled.div`
 	height: 300px;
 	width: 100%;
 	background: #00243a;
+	opacity: 0.9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
 `;
