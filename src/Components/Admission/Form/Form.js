@@ -1,5 +1,6 @@
-import React from 'react'
-import style from 'styled-components'
+import React from 'react';
+import style from 'styled-components';
+import Button from '@mui/material/Button';
 
 
 const Form = () => {
@@ -9,7 +10,7 @@ const Form = () => {
             <Header>Please, fill correctly the right informations</Header>
             <FormHolder>
                 A. STUDENT BIO DATA
-                <input placeholder='Surname'/>
+                <input placeholder='Surname' required="true"/>
                 <input placeholder='Other Names'/>
                 <span>
                     Date of Birth:<input placeholder='Date of Birth' type="date"/>
@@ -41,7 +42,62 @@ const Form = () => {
                 <input placeholder='Address'/>
                 <br/>
                 D. CHOICE OF PROGRAMME
+                <ProgHolder>
+                <span>
+                    <label for="certificate">CERTIFICATE</label>
+                    <input type="checkbox" id="certificate"/>
 
+                    <label for="diploma">DIPLOMA</label>
+                    <input type="checkbox" id="diploma"/>
+
+                    <label for="conversion">CONVERSION</label>
+                    <input type="checkbox" id="conversion"/>
+                </span>
+
+                <span>
+                    <label for="directentry">DIRECT ENTRY</label>
+                    <input type="checkbox" id="directentry"/>
+
+                    <label for="bachelors">BACHELORS</label>
+                    <input type="checkbox" id="bachelors"/>
+
+                    <label for="masters">MASTERS</label>
+                    <input type="checkbox" id="masters"/>
+                </span>
+
+                <span>
+                    <label for="phd">Ph.D</label>
+                    <input type="checkbox" id="phd"/>
+                    <div></div>
+                    (Please tick appropriately)
+                </span>
+                </ProgHolder>
+
+                <input placeholder='Course of Study'/>
+
+                {/* <br />
+                ACADEMIC QUALIFICATIONS */}
+
+                <br/>
+                CURRICULAR ACTIVITIES
+                <input placeholder='Sporting Activities'/>
+                <input placeholder='Hobby'/>
+                <input placeholder='Other Interests'/>
+                <br/>
+                <ObligHolder>
+                <b>OBLIGATION:</b>
+                I do hereby pledge to abide by all the rules, regulations and Obligation
+                governing the general conduct of studentship while studying in this University. In the
+                case of my misconduct, indiscipline and or my falsification of documents submitted
+                for this admission, I am aware that my admission shall be forfeited.
+                </ObligHolder>
+                <h5 style={{width:"95%"}}>
+                NB: Inorder for your admission to be processed, kindly pay your admission
+                fee, and send your prove of payment including other required documents to the 
+                school official email: esepadmissions@gmail.com
+                </h5>
+                <br/>
+                <Button variant='outline' style={{color:"white", border:"1px solid whitesmoke", backgroundColor:"#03A84E"}}>SUBMIT</Button>
 
             </FormHolder>
         </MainContainer>
@@ -69,7 +125,7 @@ const Header = style.div`
     margin-top: -20px;
 `
 
-const FormHolder = style.div`
+const FormHolder = style.form`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,6 +134,7 @@ const FormHolder = style.div`
     width: 500px;
     border-radius: 5px;
     margin-top: 15px;
+    text-align: left;
 
     @media screen and (max-width: 425px){
         width: 95%
@@ -122,4 +179,12 @@ const FormHolder = style.div`
             margin-left: 10px;
         }
     }
+`
+const ProgHolder = style.div`
+    width: 90%;
+`
+
+const ObligHolder = style.div`
+    width: 95%;
+    font-weight: lighter;
 `
