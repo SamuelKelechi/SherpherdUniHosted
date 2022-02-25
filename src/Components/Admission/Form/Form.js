@@ -13,8 +13,8 @@ const Form = () => {
                 <input placeholder='Surname' required="true"/>
                 <input placeholder='Other Names'/>
                 <span>
-                    Date of Birth:<input placeholder='Date of Birth' type="date"/>
-                    <label for="sex">Sex:</label>
+                    <b>Date of Birth:</b><input placeholder='Date of Birth' type="date"/>
+                    <label for="sex"><b>Sex:</b></label>
                     <select>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
@@ -44,31 +44,33 @@ const Form = () => {
                 D. CHOICE OF PROGRAMME
                 <ProgHolder>
                 <span>
-                    <label for="certificate">CERTIFICATE</label>
+                    <label for="certificate"><b>CERTIFICATE</b></label>
                     <input type="checkbox" id="certificate"/>
 
-                    <label for="diploma">DIPLOMA</label>
+                    <label for="diploma"><b>DIPLOMA</b></label>
                     <input type="checkbox" id="diploma"/>
-
-                    <label for="conversion">CONVERSION</label>
-                    <input type="checkbox" id="conversion"/>
                 </span>
 
                 <span>
-                    <label for="directentry">DIRECT ENTRY</label>
-                    <input type="checkbox" id="directentry"/>
+                    <label for="conversion"><b>CONVERSION</b></label>
+                    <input type="checkbox" id="conversion"/>
 
-                    <label for="bachelors">BACHELORS</label>
+                    <label for="directentry"><b>DIRECT ENTRY</b></label>
+                    <input type="checkbox" id="directentry"/>
+                </span>
+
+                <span>
+                    <label for="bachelors"><b>BACHELORS</b></label>
                     <input type="checkbox" id="bachelors"/>
 
-                    <label for="masters">MASTERS</label>
+                    <label for="masters"><b>MASTERS</b></label>
                     <input type="checkbox" id="masters"/>
                 </span>
 
                 <span>
-                    <label for="phd">Ph.D</label>
+                    <label for="phd"><b>Ph.D</b></label>
                     <input type="checkbox" id="phd"/>
-                    <div></div>
+                    
                     (Please tick appropriately)
                 </span>
                 </ProgHolder>
@@ -92,7 +94,7 @@ const Form = () => {
                 for this admission, I am aware that my admission shall be forfeited.
                 </ObligHolder>
                 <h5 style={{width:"95%"}}>
-                NB: Inorder for your admission to be processed, kindly pay your admission
+                NB: In order for your admission to be processed, kindly pay your admission
                 fee, and send your prove of payment including other required documents to the 
                 school official email: esepadmissions@gmail.com
                 </h5>
@@ -182,6 +184,10 @@ const FormHolder = style.form`
 `
 const ProgHolder = style.div`
     width: 90%;
+
+    @media screen and (max-width: 425px){
+        width: 100%
+    }
 `
 
 const ObligHolder = style.div`
