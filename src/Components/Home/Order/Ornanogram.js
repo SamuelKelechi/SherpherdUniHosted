@@ -8,7 +8,7 @@ const Ornanogram = () => {
         <>
             <Container>
                 <Header>
-                    Order of Ornanogram
+                    Order of Organogram
                 </Header>
                 <Wrapper>
                     <Card>
