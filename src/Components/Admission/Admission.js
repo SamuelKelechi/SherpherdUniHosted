@@ -25,7 +25,7 @@ function Admission() {
 				<Texting>
 					Admission <Line></Line>
 				</Texting>
-				<Link to="/form" style={{textDecoration:"none"}}><Button variant='outline' style={{color:"white", border:"1px solid whitesmoke"}}>Apply Here..</Button></Link>
+				<Link to="/form" style={{textDecoration:"none"}}><Button variant='outline' style={{color:"white", border:"1px solid red"}}>Apply Here..</Button></Link>
 		</Heading>
         <Wrapper>
           <AdmissionComp/>

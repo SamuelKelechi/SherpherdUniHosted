@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import styled from "styled-components";
+import styled from "styled-components"; 
 import { app } from "../../Base";
 import firebase from "firebase";
 import { BsSearch } from "react-icons/bs";
 import pic from "./img/8.jpg";
 import { Document, Page } from "react-pdf";
+
 const AdminDash = () => {
 	const [studentData, setStudentData] = React.useState([]);
 	const [image, setImage] = useState("");
@@ -82,8 +83,8 @@ const AdminDash = () => {
 
 			<CardHold>
 				<Card>
-					<h2>GREAT SHEPHERED OFFICIAL PORTAL</h2>
-					<p>
+					<h2>GREAT SHEPHERD OFFICIAL PORTAL</h2>
+					<p>										  
 						Here is your school Secret ID : <span>thgbfisifhhghs</span>
 					</p>
 					<br />
@@ -164,10 +165,7 @@ const Imagign = styled.img`
 	height: 400px;
 	width: 100%;
 	background: white;
-
-
-	h2
-`;
+`
 
 const Card2 = styled.div`
 	transition: 0.5s all ease;
@@ -347,7 +345,7 @@ const Container = styled.div`
 	width: 100%;
 	background: #00243a;
 	height: 100vh;
-	padding-bottom: 30px;
+	padding-bottom: 100px;
 
 	select {
 		width: 400px;

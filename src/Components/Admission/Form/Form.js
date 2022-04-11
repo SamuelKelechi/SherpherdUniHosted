@@ -10,16 +10,21 @@ const Form = () => {
             <Header>Please, fill correctly the right informations</Header>
             <FormHolder>
                 A. STUDENT BIO DATA
-                <input placeholder='Surname' required="true"/>
-                <input placeholder='Other Names'/>
+                <input placeholder='Surname' required/>
+                <input placeholder='Other Names' required/>
                 <span>
-                    <b>Date of Birth:</b><input placeholder='Date of Birth' type="date"/>
+                    <b>Date of Birth:</b><input placeholder='Date of Birth' type="date" required/>
                     <label for="sex"><b>Sex:</b></label>
                     <select>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                         <option value="Others">Others</option>
                     </select>
+                </span>
+                <span style={{display:"flex", width:"95%", justifyContent:"flex-start"}}>
+                    <label for="birth"><b>Upload Birth Certificate:</b></label>
+                    <br/>
+                    <input type="file" style={{width:"250px"}} required/>
                 </span>
                 <input placeholder='Nationality'/>
                 <input placeholder='Permanent Address'/>
@@ -42,40 +47,23 @@ const Form = () => {
                 <input placeholder='Address'/>
                 <br/>
                 D. CHOICE OF PROGRAMME
+                <label>Select Your Choice of Program</label>
                 <ProgHolder>
-                <span>
-                    <label for="certificate"><b>CERTIFICATE</b></label>
-                    <input type="checkbox" id="certificate"/>
-
-                    <label for="diploma"><b>DIPLOMA</b></label>
-                    <input type="checkbox" id="diploma"/>
-                </span>
-
-                <span>
-                    <label for="conversion"><b>CONVERSION</b></label>
-                    <input type="checkbox" id="conversion"/>
-
-                    <label for="directentry"><b>DIRECT ENTRY</b></label>
-                    <input type="checkbox" id="directentry"/>
-                </span>
-
-                <span>
-                    <label for="bachelors"><b>BACHELORS</b></label>
-                    <input type="checkbox" id="bachelors"/>
-
-                    <label for="masters"><b>MASTERS</b></label>
-                    <input type="checkbox" id="masters"/>
-                </span>
-
-                <span>
-                    <label for="phd"><b>Ph.D</b></label>
-                    <input type="checkbox" id="phd"/>
-                    
-                    (Please tick appropriately)
-                </span>
+                    <option value="DIPLOMA" >DIPLOMA</option>
+                    <option value="CERTIFICATE" >CERTIFICATE</option>
+                    <option value="CONVERSION" >CONVERSION</option>
+                    <option value="DIRECT ENTRY" >DIRECT ENTRY</option>
+                    <option value="BACHELORS" >BACHELORS</option>
+                    <option value="MASTERS">MASTERS</option>
+                    <option value="Ph.D">Ph.D</option>
                 </ProgHolder>
 
-                <input placeholder='Course of Study'/>
+                <input placeholder='Course of Study' required/>
+                <span style={{display:"flex", width:"95%", justifyContent:"flex-start"}}>
+                    <label for="birth"><b>Upload O'Level Result:</b></label>
+                    <br/>
+                    <input type="file" style={{width:"250px"}} required/>
+                </span>
 
                 {/* <br />
                 ACADEMIC QUALIFICATIONS */}
@@ -99,7 +87,8 @@ const Form = () => {
                 school official email: esepadmissions@gmail.com
                 </h5>
                 <br/>
-                <Button variant='outline' style={{color:"white", border:"1px solid whitesmoke", backgroundColor:"#03A84E"}}>SUBMIT</Button>
+                <input type="submit" style={{color:"white", cursor:"pointer", border:"1px solid whitesmoke", backgroundColor:"#03A84E"}}/>
+                {/* <Button variant='outline' >SUBMIT</Button> */}
 
             </FormHolder>
         </MainContainer>
@@ -182,8 +171,16 @@ const FormHolder = style.form`
         }
     }
 `
-const ProgHolder = style.div`
+const ProgHolder = style.select`
     width: 90%;
+    height:40px;
+    font-weight: bold;
+    border: none;
+
+    option{
+        font-family: Poppins;
+        font-weight: bold;
+    }
 
     @media screen and (max-width: 425px){
         width: 100%

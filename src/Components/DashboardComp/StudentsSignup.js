@@ -5,11 +5,13 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import { app } from "../../Base";
 import { useNavigate } from "react-router-dom";
+
+
 const StudentsSignup = () => {
 	const navigate = useNavigate();
 	const [fetchData, setFetchData] = React.useState([]);
 	const [errMess, setErrMess] = React.useState("");
-	const [sec, setSect] = React.useState("thgbfisifhhghs");
+	const [sec, setSect] = React.useState(12345);
 
 	const schema = yup.object().shape({
 		userName: yup.string().required("this field is required"),

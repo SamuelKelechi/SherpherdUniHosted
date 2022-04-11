@@ -11,9 +11,10 @@ import AdminDash from "./Components/DashboardComp/AdminDash";
 import { GlobalProvider } from "./Components/Global/GlobalContext";
 import AdminSignUp from "./Components/DashboardComp/AdminSignUp";
 import Schoolarship from "./Components/Schoolarship/Schoolarship";
-import Form from "./Components/Admission/Form/Form"
+import Form from "./Components/Admission/Form/Form";
 import ScrollToTop from "./ScrollToTop";
-import Chat from "./Components/Chat"
+import GlobalStyle from "./globalStyle";
+import Chat from "./Components/Chat";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
 			<GlobalProvider>
 				<Router>
 				  	<ScrollToTop>
+					  <GlobalStyle />    
 						<HeaderComponent />
 							<Routes>
 								<Route path='/' element={<Home />} />

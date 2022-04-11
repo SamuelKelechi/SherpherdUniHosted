@@ -4,6 +4,7 @@ import { AiFillCheckCircle } from "react-icons/ai";
 import pic1 from "./img/1.jpg";
 import pic2 from "./img/2.jpg";
 const ProfCourse = () => {
+
 	return (
 		<Container>
 			<MainHold>
@@ -16,14 +17,14 @@ const ProfCourse = () => {
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>Industrial Security & safety management</Text>
+						<Text>Industrial Security & Safety Management</Text>
 					</TextHold>
 					<TextHold>
 						{" "}
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>Maritime Security & safety management</Text>
+						<Text>Maritime Security & Safety Management</Text>
 					</TextHold>
 					<TextHold>
 						{" "}
@@ -37,7 +38,7 @@ const ProfCourse = () => {
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>Marin Engineering</Text>
+						<Text>Marine Engineering</Text>
 					</TextHold>
 					<TextHold>
 						{" "}
@@ -51,7 +52,7 @@ const ProfCourse = () => {
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>Legal & Comprehensive Study in education management</Text>
+						<Text>Legal & Comprehensive Study in Education Management</Text>
 					</TextHold>
 					<TextHold>
 						{" "}
@@ -122,16 +123,13 @@ const ImageHold = styled.img`
 `;
 const TextHold = styled.div`
 	display: flex;
-	align-items: center;
-
-	span {
-		margin-top: 10px;
-	}
+	align-items: flex-start;
 `;
 const Text = styled.div`
 	width: 300px;
 	margin-left: 10px;
 	font-size: 17px;
+	margin-top: -2px;
 `;
 const FirstComp = styled.div`
 	display: flex;

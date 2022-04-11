@@ -17,7 +17,7 @@ function AboutUni() {
                         <br/>
                         <br/>
                         Great Shepherd University provides the opportunity for interactive activities with students of 
-                        affiliated Universities in African and other parts of the World. Some of our foreign partner universities/institutions includes;
+                        affiliated Universities in African and other parts of the World. Some of our foreign partner universities/institutions include;
                         University of Yaounde Cameroon, International University of Bamenda Cameroon, Bamenda University of Science & Technology(BUST), The Institute
                         of Entrepreneurs Nigeria, The Chartered Institute of Marketing Nigeria, Merchant Marine Training Academy Apapa, Lagos Nigeria, The Chartered 
                         Institute of Administration Nigeria.

@@ -28,7 +28,7 @@ const Footer = () => {
 					</ContentWrapper>
 					<ContentWrapper>
 					<Link to="/admission" style={{textDecoration:"none", color:"white"}}><ContentText1>Admission</ContentText1></Link>
-						<Direct1>Accredicted Courses</Direct1>
+						<Direct1>Accredited Courses</Direct1>
 						<Direct2>International affiliation</Direct2>
 						<Direct3>Scholarship Eligibility</Direct3>
 						<Direct4>Our facilities</Direct4>

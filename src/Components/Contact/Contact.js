@@ -29,7 +29,7 @@ const Contact = () => {
 						<Input placeholder='Name' />
 						<Input placeholder='Email address' />
 						<Input placeholder='phone No' />
-						<textarea placeholder='Your message' column="50"/>
+						<textarea placeholder='Your message'/>
 						<ButtonHolder>
 							<ButtonS>Submit</ButtonS>
 						</ButtonHolder>
@@ -40,14 +40,7 @@ const Contact = () => {
 					<Email>Email: esepgsadmissions@gmail.com <br/>esepadmissions@gmail.com</Email>
 					<PhoneNumber>Phone Number:+22964251703, +2347062944349 </PhoneNumber>
 					<MapDiv>
-						<iframe
-							src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.149164034653!2d2.6246083141499477!3d6.502793825209307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b5a02450e9ef9%3A0xae02282713c1682a!2sLong%20Rail%20Kandevi%C3%A9%2C%20Porto-Novo%2C%20Benin!5e0!3m2!1sen!2sng!4v1641570049675!5m2!1sen!2sng'
-							//   width="600"
-							//   height="450"
-							//   style={{border:0,
-							//        allowfullscreen:"",
-							//         loading:"lazy"}}
-						></iframe>
+						<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.149164034653!2d2.6246083141499477!3d6.502793825209307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b5a02450e9ef9%3A0xae02282713c1682a!2sLong%20Rail%20Kandevi%C3%A9%2C%20Porto-Novo%2C%20Benin!5e0!3m2!1sen!2sng!4v1641570049675!5m2!1sen!2sng'></iframe>
 					</MapDiv>
 				</AddressHolder>
 			</Wrapper>
@@ -191,6 +184,7 @@ const FormCard = styled.div`
 		border: 1px solid lightgray;
 		padding-left: 10px;
 		width: 500px;
+		height: 90px;
 
 		@media screen and (max-width: 768px) {
 			width: 270px;	
@@ -296,7 +290,7 @@ const IconHolder = styled.div`
 `;
 
 const TextHolder = styled.div`
-	height: 300px;
+	height: 350px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -314,7 +308,7 @@ const TextHolder = styled.div`
 		content: "";
 		background-color: rgba(0, 0, 0, 0.6);
 		width: 100%;
-		height: 300px;
+		height: 350px;
 		top: 0;
 		bottom: 0;
 		position: absolute;
