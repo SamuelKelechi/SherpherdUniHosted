@@ -5,8 +5,8 @@ const Chat = () => {
     return(
         <>
             <TawkMessengerReact
-                propertyId="6207bc719bd1f31184dc4c7e"
-                widgetId="1frn3g94c"/>
+                propertyId="6226fdd9a34c24564129f7ad"
+                widgetId="1ftk5mvhj"/>
         </>
     )
 

@@ -112,6 +112,7 @@ const Requirements = () => {
 							</span>
 							<Texting>Wi-fi</Texting>
 						</TextHold>
+						<br />
 						<TextHold>
 							{" "}
 							<span>
@@ -129,6 +130,7 @@ const Requirements = () => {
 								ICT Programmes with new horizon to make our students more I.C.T Compliance.
 							</Texting>
 						</TextHold>
+						<br />
 						<TextHold>
 							{" "}
 							<span>
@@ -252,11 +254,7 @@ const Card1 = styled.div`
 
 const TextHold = styled.div`
 	display: flex;
-	align-items: center;
-
-	span {
-		margin-top: 15px;
-	}
+	align-items: flex-start;
 `;
 const Texting = styled.div`
 	width: 330px;

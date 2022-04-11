@@ -20,7 +20,7 @@ const HeroSection = () => {
 	return (
 		<>
 		<Container>
-			<Wrapper>
+			<Wrapper> 
 				<Mylider {...settings}>
 					<MyStyled>
 						<SliderImage src={pic1} />

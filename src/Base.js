@@ -3,10 +3,10 @@ import "firebase/firestore";
 import "firebase/auth";
 
 export const app = firebase.initializeApp({
-	apiKey: "AIzaSyAoe9C1In7MFPZUfgdM1pmonb6b_mC_Z30",
-	authDomain: "bootcampcicd.firebaseapp.com",
-	projectId: "bootcampcicd",
-	storageBucket: "bootcampcicd.appspot.com",
-	messagingSenderId: "85426622224",
-	appId: "1:85426622224:web:1a0252a770a187a5329f95",
+	apiKey: "AIzaSyBE7ptGtNeVBHfwwFF_uQOtYMW1w4PcLYU",
+	authDomain: "new-student-registration-95348.firebaseapp.com",
+	projectId: "new-student-registration-95348",
+	storageBucket: "new-student-registration-95348.appspot.com",
+	messagingSenderId: "212969240146",
+	appId: "1:212969240146:web:6601ac3d8698b7505a118b",
 });

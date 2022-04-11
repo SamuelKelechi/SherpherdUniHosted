@@ -17,8 +17,8 @@ const AdmissionComp = () => {
 							<AiFillCheckCircle />
 						</span>
 						<Text>
-							Linguistics(French and English , Interpretation and Translation)
-						</Text>
+								Linguistics(French and English , Interpretation and Translation)
+							</Text>
 					</TextHold>
 					<TextHold>
 						{" "}
@@ -77,8 +77,8 @@ const AdmissionComp = () => {
 							<AiFillCheckCircle />
 						</span>
 						<Text>
-							Pre Degree / Foundation program in french and English for one
-							academic year
+							Pre Degree / Foundation Program in French and English for one
+							Academic Year
 						</Text>
 					</TextHold>
 					<TextHold>
@@ -123,7 +123,7 @@ const AdmissionComp = () => {
 						<span>
 							<AiFillCheckCircle />
 						</span>
-						<Text>Accelerated Programmers at master level</Text>
+						<Text>Accelerated Programmes at Master Level</Text>
 					</TextHold>
 				</FirstComp>
 			</MainWrapper>
@@ -141,11 +141,7 @@ export default AdmissionComp;
 
 const TextHold = styled.div`
 	display: flex;
-	align-items: center;
-
-	span {
-		margin-top: 15px;
-	}
+	align-items: flex-start;
 `;
 const Text = styled.div`
 	width: 300px;
@@ -154,7 +150,7 @@ const Text = styled.div`
 `;
 const FirstComp = styled.div`
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
 	margin: 10px;

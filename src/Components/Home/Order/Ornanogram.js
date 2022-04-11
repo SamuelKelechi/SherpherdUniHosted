@@ -12,18 +12,18 @@ const Ornanogram = () => {
                 </Header>
                 <Wrapper>
                     <Card>
-                        <span><ArrowRightSharpIcon/>Esep_Le Berger(Principal partner of Great Shepherd University)<br/>President/Founder_Prof Germain Ganlonlon</span>
-                        <span><ArrowRightSharpIcon/>Great Shepherd University<br/>Vice Chancellor_ Ndien Augustine P</span>
-                        <span><ArrowRightSharpIcon/>Great Shepherd University<br/>Acting Registrar- Dr.Akande</span>
-                        <span><ArrowRightSharpIcon/>Esep _Le Berger / Great Shepherd University<br/>Dean , Student Affairs_ Alexis Agbessi</span>
-                        <span><ArrowRightSharpIcon/>Great Shepherd University<br/>Consultant,Internal relations & Political  Science</span>
+                        <span><ArrowRightSharpIcon/>Esep Le Berger(Principal partner of Great Shepherd University)<br/>President/Founder - Prof Germain Ganlonlon</span>
+                        <span><ArrowRightSharpIcon/>Great Shepherd University<br/>Vice Chancellor - Ndien Augustine P</span>
+                        <span><ArrowRightSharpIcon/>Great Shepherd University<br/>Acting Registrar - Dr.Akande</span>
+                        <span><ArrowRightSharpIcon/>Esep _Le Berger / Great Shepherd University<br/>Dean , Student Affairs - Alexis Agbessi</span>
+                        <span><ArrowRightSharpIcon/>Great Shepherd University<br/>Consultant - Mr Alex Balogun</span>
                     </Card>
                     <Card>
-                        <span><ArrowRightSharpIcon/>Great Shepherd University<br/>Dean , Research & Grants_Mr Onoja Bernard</span>
-                        <span><ArrowRightSharpIcon/>Great Shepherd University Head, Student Drive Mobilisation <br/> &Admission Processing Unit/Librarian _ Miss Oyefusi Ayomide</span>
-                        <span><ArrowRightSharpIcon/>Great Shepherd University <br/>Exams & Records / Bursary _ Sister Priscilla Mbaegbu</span>
-                        <span><ArrowRightSharpIcon/>Great Shepherd University Confidential  <br/>Secretary _Miss Ndien Blessing Assistant Secretary _Miss Daramola Oluwakemi</span>
-                        <span><ArrowRightSharpIcon/>Great Shepherd University <br/>Food Services Department _ Mrs Ndien Obioma</span>
+                        <span><ArrowRightSharpIcon/>Great Shepherd University<br/>Dean , Research & Grants - Mr Onoja Bernard</span>
+                        <span><ArrowRightSharpIcon/>Great Shepherd University Head, Student Drive Mobilisation <br/> & Admission Processing Unit/Librarian - Miss Oyefusi Ayomide</span>
+                        <span><ArrowRightSharpIcon/>Great Shepherd University <br/>Exams & Records / Bursary - Sister Priscilla Mbaegbu</span>
+                        <span><ArrowRightSharpIcon/>Great Shepherd University Confidential  <br/>Secretary - Miss Ndien Blessing / Assistant Secretary - Miss Daramola Oluwakemi</span>
+                        <span><ArrowRightSharpIcon/>Great Shepherd University <br/>Food Services Department - Mrs Ndien Obioma</span>
                     </Card>
                 </Wrapper>
             </Container>
@@ -42,17 +42,19 @@ const Container = style.div`
     padding: 15px 0 30px 0;
     margin-top: 20px;
     // font-weight: bold;
+    color: white;
+    padding: 40px 0 50px 0;
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 `
 const Header = style.div`
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-size: 25px;
     font-weight: 700;
-    color:#00243A ;
 `
 const Wrapper = style.div`
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     justify-content: space-around;
 
     @media screen and (max-width: 425px){

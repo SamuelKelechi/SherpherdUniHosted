@@ -10,7 +10,8 @@ function VerCon() {
 
   React.useEffect(()=>{
     Aos.init()
-  },[])
+  },[]);
+
   return (
     <Container>
       <Wrapper>
@@ -33,10 +34,12 @@ function VerCon() {
             <br/>
           
             <Title>ENQUIRIES IN NIGERIA</Title>
-            <DD>Principal Enquiries and admission centre in Lagos and Ogun State
-West Coast international Schools.
-ADDRESS- 6, Surulere Street, Orilowo Ejigbo, Lagos, Nigeria.
-PHONE NUMBERS- 08060209912, 07063879167</DD>
+            <DD>
+                Principal Enquiries and admission centre in Lagos and Ogun State
+                West Coast international Schools.
+                ADDRESS- 6, Surulere Street, Orilowo Ejigbo, Lagos, Nigeria.
+                PHONE NUMBERS- 08060209912, 07063879167
+            </DD>
           </Decs>
         </CardH>
         <CardH data-aos="fade-up"
