@@ -85,7 +85,7 @@ const AdminDash = () => {
 				<Card>
 					<h2>GREAT SHEPHERD OFFICIAL PORTAL</h2>
 					<p>										  
-						Here is your school Secret ID : <span>thgbfisifhhghs</span>
+						Here is your school Secret ID : <span>1eMinCv9skdifv68iEv2</span>
 					</p>
 					<br />
 					<h3>Upload student result Here</h3>

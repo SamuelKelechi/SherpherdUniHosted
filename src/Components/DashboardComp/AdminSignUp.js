@@ -27,7 +27,6 @@ function AdminSignUp() {
 
 	const schema = yup.object().shape({
 		fullName: yup.string().required("this field is required"),
-
 		email: yup.string().email().required("this field is required"),
 		password: yup.string().required("this field is required"),
 	});
