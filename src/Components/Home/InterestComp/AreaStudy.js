@@ -116,7 +116,7 @@ text-transform: uppercase;
 `
 
 const BoxHolder = styled.div`
-width: 70vw;
+width: 80vw;
 margin-top: 20px;
 display: flex;
 justify-content: space-around;
@@ -154,7 +154,7 @@ opacity:30%;
 }
 `
 const BoxHolder1 = styled.div`
-width: 70vw;
+width: 80vw;
 margin-top: 20px;
 display: flex;
 justify-content: space-around;

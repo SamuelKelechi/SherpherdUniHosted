@@ -417,12 +417,12 @@ const Div = styled.div`
 	}
 `;
 const Container = styled.div`
-	margin-top: 20px;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	min-height: 70vh;
+	min-height: 100vh;
 `;
 const ImageUser = styled.img`
 	height: 50px;

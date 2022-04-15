@@ -162,7 +162,7 @@ const HeaderComponent = () => {
 								<Link
 									to='/studentDashboard'
 									style={{ color: "white", textDecoration: "none" }}>
-									<GoDashboard style={{ fontSize: "19px" }} />
+									<GoDashboard style={{ fontSize: "19px", marginLeft:"10px" }} />
 									<span>Dashboard</span>
 								</Link>
 							) : null}
@@ -218,7 +218,7 @@ const Anchor = styled.div`
     font-weight: bold;
     text-transform: uppercase;
     font-size: 13px;
-    letter-spacing: 1.1px
+    letter-spacing: 1.1px;
     position: relative;
     opacity: 0.6;
 
